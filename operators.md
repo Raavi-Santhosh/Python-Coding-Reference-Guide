@@ -39,11 +39,48 @@ Comparison operators are used for comparing operands on either side of the opera
 
 | Operator | Description | Example |
 | :---: | :--- | :---: |
-| and | Logical AND - `True` if both the operands are `True` |  |
-| or | Logical OR - `False` if both the operands are `False` |  |
-| not | Logical NOT - `True` if the operand is False and vice versa |  |
+| and | Logical AND - `True` if both the operands are `True` | x and y |
+| or | Logical OR - `False` if both the operands are `False` | x or y |
+| not | Logical NOT - `True` if the operand is False and vice versa | not x |
+
+#### Logical AND Operator
+
+The result of the Logical AND operator is`True`if both the operands are `True`. See the below truth table
+
+| Operand 1 | Operand 2 | Result |
+| :---: | :---: | :---: |
+| True | True | True |
+| True | False | False |
+| False | True | False |
+| False | False | False |
+
+#### Logical OR Operator
+
+The result of the Logical OR operator is`False`if both the operands are `False`. See the below truth table
+
+| Operand 1 | Operand 2 | Result |
+| :---: | :---: | :---: |
+| True | True | True |
+| True | False | True |
+| False | True | True |
+| False | False | False |
+
+#### Logical NOT Operator
+
+Logical NOT is a complementary operator. If the operand is`True`then the result of logical NOT operator is`False`and vice versa. Check out the below truth table.
+
+| Operand | Result |
+| :---: | :---: |
+| Not True | False |
+| Not False | True |
 
 ### Bitwise Operators
+
+Bitwise Operators work on bits as they operate on operands bit by bit.
+
+
+
+
 
 ### Assignment Operators
 
