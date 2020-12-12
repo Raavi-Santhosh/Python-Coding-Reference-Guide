@@ -8,6 +8,8 @@ description: Take a quick look of operators in Python with a short example.
 
 ### Arithmetic Operators
 
+Arithmetic operators are used for performing mathematical operations like addition, multiplication, division, etc, and return the result which an arithmetic operator is calculated.
+
 | Operator |                                                     Description | Example |
 | :---: | :--- | :---: |
 | + | Adds operands on either side of the operator | 3 + 2 = 5 |
@@ -19,6 +21,17 @@ description: Take a quick look of operators in Python with a short example.
 | \*\* | Power | 2 \*\* 3 = 8 |
 
 ### Comparison Operators
+
+Comparison operators are used for comparing operands on either side of the operator. It returns `True` or `False` based on the condition.
+
+| Operator | Description | Example |
+| :---: | :--- | :---: |
+| &gt; | Greater than - `True` if the left operand is greater than right operand | 5 &gt; 3 |
+| &lt; | Less than - `True` if the left operand is less than the right operand | 2 &lt; 6 |
+| &gt;= | Greater than or Equal to - `True` if the left operand is greater than or equal to the right operand | 2 &gt;= 2 |
+| &lt;= | Less than or Equal to - `True`  if the left operand is less than or equal to the right operand |  3 &lt;= 3 |
+| == | Equal to - `True` if  both operands are exactly equal  |  6 == 6 |
+| != | Not Equal to - `True` if operands are not equal | 5 != 4 |
 
 ### Logical Operators
 
