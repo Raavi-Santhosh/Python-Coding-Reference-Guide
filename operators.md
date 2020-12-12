@@ -119,7 +119,7 @@ Identity operators are used for comparing the memory location of two objects.
 | is | `True` if operands on either side of the operator points to the same object and `False` otherwise. | x is y, similar to id\(x\) == id\(y\) |
 | is not  | `True` if operands on either side of the operator does not points to the same object and `False` otherwise. | x is not y, similar to id\(x\) != id\(y\) |
 
-
+#### Difference between Identity Operator & Equal-to comparison Operator
 
 
 
