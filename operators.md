@@ -6,7 +6,7 @@ description: Take a quick look of operators in Python with a short example.
 
 ![Different operators supported by Python](.gitbook/assets/operators.png)
 
-### Arithmetic Operators
+## Arithmetic Operators
 
 Arithmetic operators are used for performing mathematical operations like addition, multiplication, division, etc, and return the result which an arithmetic operator is calculated.
 
@@ -20,7 +20,7 @@ Arithmetic operators are used for performing mathematical operations like additi
 | // | Performs Floor division. It returns the quotient if both the operands are positive.  If any of the operands is negative then it returns the floor value. i.e., rounded away from zero \(towards the infinity\) | 7//2 = 3 and 7.0//2.0 = 3.0, -11//3 = -4, -11.0//3 = -4.0 |
 | \*\* | Power | 2 \*\* 3 = 8 |
 
-### Comparison Operators
+## Comparison Operators
 
 Comparison operators are used for comparing operands on either side of the operator. It returns `True` or `False` based on the condition.
 
@@ -33,7 +33,7 @@ Comparison operators are used for comparing operands on either side of the opera
 | == | Equal to - `True` if  both operands are exactly equal  |  6 == 6 |
 | != | Not Equal to - `True` if operands are not equal | 5 != 4 |
 
-### Logical Operators
+## Logical Operators
 
 `and`, `or` and `not` are Logical Operators.
 
@@ -43,7 +43,7 @@ Comparison operators are used for comparing operands on either side of the opera
 | or | Logical OR - `False` if both the operands are `False` | x or y |
 | not | Logical NOT - `True` if the operand is False and vice versa | not x |
 
-#### Logical AND Operator
+### Logical AND Operator
 
 The result of the Logical AND operator is`True`if both the operands are `True`. See the below truth table
 
@@ -54,7 +54,7 @@ The result of the Logical AND operator is`True`if both the operands are `True`. 
 | False | True | False |
 | False | False | False |
 
-#### Logical OR Operator
+### Logical OR Operator
 
 The result of the Logical OR operator is`False`if both the operands are `False`. See the below truth table
 
@@ -65,7 +65,7 @@ The result of the Logical OR operator is`False`if both the operands are `False`.
 | False | True | True |
 | False | False | False |
 
-#### Logical NOT Operator
+### Logical NOT Operator
 
 Logical NOT is a complementary operator. If the operand is`True`then the result of logical NOT operator is`False`and vice versa. Check out the below truth table.
 
@@ -74,7 +74,11 @@ Logical NOT is a complementary operator. If the operand is`True`then the result 
 | Not True | False |
 | Not False | True |
 
-### Bitwise Operators
+{% hint style="success" %}
+Comparison operators and logical operators are chained up to form an expression and are most frequently used in conditional statements. 
+{% endhint %}
+
+## Bitwise Operators
 
 Bitwise Operators work on bits as they operate on operands bit by bit.
 
@@ -87,9 +91,15 @@ Bitwise Operators work on bits as they operate on operands bit by bit.
 | &gt;&gt; | Bitwise Right-shift |  |
 | &lt;&lt; | Bitwise Left-shift |  |
 
-### Assignment Operators
+## Assignment Operators
 
-### Special Operators
+## Special Operators
+
+Python offers some special type of operators. Membership operators & Identity operators.
+
+### Membership Operators
+
+Membership operators are used for checking whether a value is present in the sequence like list, string, tuple, dictionary, set.
 
 
 
