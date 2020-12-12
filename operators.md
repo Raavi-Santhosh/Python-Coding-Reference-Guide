@@ -24,9 +24,9 @@ Arithmetic operators are used for performing mathematical operations like additi
 
 Comparison operators are used for comparing operands on either side of the operator. It returns `True` or `False` based on the condition.
 
-| Operator | Description | Example |
+| Operator |                                                        Description | Example |
 | :---: | :--- | :---: |
-| &gt; | Greater than - `True` if the left operand is greater than right operand | 5 &gt; 3 |
+| &gt; | Greater than - `True` if the left operand is greater than the right operand | 5 &gt; 3 |
 | &lt; | Less than - `True` if the left operand is less than the right operand | 2 &lt; 6 |
 | &gt;= | Greater than or Equal to - `True` if the left operand is greater than or equal to the right operand | 2 &gt;= 2 |
 | &lt;= | Less than or Equal to - `True`  if the left operand is less than or equal to the right operand |  3 &lt;= 3 |
@@ -37,9 +37,11 @@ Comparison operators are used for comparing operands on either side of the opera
 
 `and`, `or` and `not` are Logical Operators.
 
-| Operator |  |
-| :---: | :--- |
-|  |  |
+| Operator | Description | Example |
+| :---: | :--- | :---: |
+| and | Logical AND - `True` if both the operands are `True` |  |
+| or | Logical OR - `False` if both the operands are `False` |  |
+| not | Logical NOT - `True` if the operand is False and vice versa |  |
 
 ### Bitwise Operators
 
