@@ -37,7 +37,7 @@ Comparison operators are used for comparing operands on either side of the opera
 
 `and`, `or` and `not` are Logical Operators.
 
-| Operator | Description | Example |
+| Operator |                                                       Description | Example |
 | :---: | :--- | :---: |
 | and | Logical AND - `True` if both the operands are `True` | x and y |
 | or | Logical OR - `False` if both the operands are `False` | x or y |
@@ -103,7 +103,7 @@ Membership operators are used for checking whether a value is present in the seq
 
  `in` and `not in` are Membership Operators.
 
-| Operator | Description | Example |
+| Operator |                                                        Description | Example |
 | :---: | :--- | :---: |
 | in  | `True` if the value present in the sequence and `False` otherwise. | 5 in \[2,4,5,6\] |
 | not in  | `True` if value not present in the sequence and `False` otherwise. | 7 in \[2,4,5,6\] |
@@ -114,10 +114,10 @@ Identity operators are used for comparing the memory location of two objects.
 
 `is` and `is not` are the Identity Operators.
 
-| Operator | Description | Example |
+| Operator |                                                      Description | Example |
 | :---: | :--- | :---: |
-| is | `True` if operands on either side of the operator points to the same object and `False` otherwise. | 5 in \[2,4,5,6\] |
-| is not  | `True` if operands on either side of the operator does not points to the same object and `False` otherwise. | 7 in \[2,4,5,6\] |
+| is | `True` if operands on either side of the operator points to the same object and `False` otherwise. | x is y, similar to id\(x\) == id\(y\) |
+| is not  | `True` if operands on either side of the operator does not points to the same object and `False` otherwise. | x is not y, similar to id\(x\) != id\(y\) |
 
 
 
