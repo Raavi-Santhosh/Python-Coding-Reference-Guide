@@ -78,9 +78,14 @@ Logical NOT is a complementary operator. If the operand is`True`then the result 
 
 Bitwise Operators work on bits as they operate on operands bit by bit.
 
-
-
-
+| Operator | Description | Example |
+| :---: | :--- | :---: |
+| & | Bitwise AND  |  |
+| \| | Bitwise OR |  |
+| ^ | Bitwise XOR |  |
+| ~ | Bitwise Not |  |
+| &gt;&gt; | Bitwise Right-shift |  |
+| &lt;&lt; | Bitwise Left-shift |  |
 
 ### Assignment Operators
 
