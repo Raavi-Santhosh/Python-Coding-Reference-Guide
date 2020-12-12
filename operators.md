@@ -35,6 +35,12 @@ Comparison operators are used for comparing operands on either side of the opera
 
 ### Logical Operators
 
+`and`, `or` and `not` are Logical Operators.
+
+| Operator |  |
+| :---: | :--- |
+|  |  |
+
 ### Bitwise Operators
 
 ### Assignment Operators
