@@ -101,5 +101,11 @@ Python offers some special type of operators. Membership operators & Identity op
 
 Membership operators are used for checking whether a value is present in the sequence like list, string, tuple, dictionary, set.
 
+ `in` and `not in` are Membership Operators.
+
+| Operator | Description | Example |
+| :--- | :--- | :--- |
+|  |  |  |
+
 
 
