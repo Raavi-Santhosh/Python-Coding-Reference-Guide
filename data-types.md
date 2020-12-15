@@ -41,7 +41,7 @@ print("3rd item in list1 : ", list1[2])
 print("4th item in list1 :" , list1[3])
 ```
 
-
+* Python also allows negative indexing.
 
 ## Tuples
 
