@@ -93,6 +93,14 @@ Bitwise Operators work on bits as they operate on operands bit by bit.
 
 ## Assignment Operators
 
+To assign values to variables Assignment Operator is used.
+
+`a = 10` is a simple assignment operator that assigns the value 10 to the variable `a`.
+
+There are various compound operators in Python such as`a += 10` , which adds value 10 to the variable `a` and later assigns the same. Which is equivalent to `a = a + 10`. It's like a short-hand way of performing operations and assigning values to the same variable.
+
+
+
 ## Special Operators
 
 Python offers some special type of operators. Membership operators & Identity operators.
