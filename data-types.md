@@ -13,7 +13,7 @@ Python supports the following data types.
 ## Lists
 
 * Lists are ordered sequences of items and each item in the lists can be of any type.
-* Lists in Python are Mutable i.e., items in lists can be changed.
+* Lists in Python are Mutable i.e., items in lists are changable.
 * Declaring a list is pretty simple by separating all the list items with commas and enclosed them in square brackets `[]`.  _\(check the below line of code\)_
 
 ```python
@@ -28,7 +28,7 @@ list2 = [1, 4.4, ["Python", "Hello",]]
 
 ### Accessing List's Elements 
 
-* Lists are ordered structure, so the items inside the list can be accessed using their indices.
+* Lists are ordered structure, so the items of list can be accessed using their indices.
 * Lists indices in Python starts with `0`.  
 * To get an item in a list use a square bracket along with the item's index. _\(check the code given below\)_
 
@@ -41,8 +41,8 @@ print("3rd item in list1 : ", list1[2])
 print("4th item in list1 :" , list1[3])
 ```
 
-* Python also allows negative indexing.
-
+* Python also allows negative indexing which starts from -1 and it counts from the end of the list. Negative indexing starts from `-1`. 
+* 
 ## Tuples
 
 ## Strings
