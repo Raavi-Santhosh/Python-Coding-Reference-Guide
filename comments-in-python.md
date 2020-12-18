@@ -1,5 +1,5 @@
 ---
-description: You will have an overview of single-line comments and multi-line comments
+description: Let's have an overview of single-line comments and multi-line comments
 ---
 
 # Comments in Python
@@ -38,7 +38,7 @@ multi-line comment with triple
 single quotes'''
 ```
 
-They does not generate any extra code unless they are not **docstrings.**
+They do not generate any extra code unless they are not **docstrings.**
 
 > 💡 **Note:**   
 > Docstrings are multi-line strings which are defined right after the declarations of functions, classes, or methods. _Refer Functions topic for more detail._
